@@ -44,3 +44,12 @@ If you believe you have found a security vulnerability in any Microsoft-owned re
 ## License
 
 The Azure RTOS Getting Started guides are licensed under the [MIT](LICENSE.txt) license.
+
+## MARK'S CHANGE LOG !!
+### 2022 02 17 
+- FORKED repo from azure-rtos/getting-started to markvogt/getting-started
+- CLONED repo to personal laptop
+- CONFIGURED CMakeLists.txt
+- REPLACED azure-config.h from previous project
+- BUILT => SUCCESSFUL 
+- UPDATED readme.md
