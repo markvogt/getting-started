@@ -330,7 +330,7 @@ static void properties_complete_cb(AZURE_IOT_NX_CONTEXT* nx_context)
         nx_context, NULL, TELEMETRY_INTERVAL_PROPERTY, telemetry_interval);
 
     printf("\r\nStarting Main loop\r\n");
-    screen_print("Azure IoT", L0);
+    screen_print("MX-MV-01", L0);
 }
 
 static void telemetry_cb(AZURE_IOT_NX_CONTEXT* nx_context)

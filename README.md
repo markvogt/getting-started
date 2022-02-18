@@ -53,3 +53,4 @@ The Azure RTOS Getting Started guides are licensed under the [MIT](LICENSE.txt) 
 - REPLACED azure-config.h from previous project
 - BUILT => SUCCESSFUL 
 - UPDATED readme.md
+- MODIFIED nx_client.c file to update the screen_print() function to change MXChip's startup displayed message...
