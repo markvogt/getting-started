@@ -46,7 +46,7 @@ If you believe you have found a security vulnerability in any Microsoft-owned re
 The Azure RTOS Getting Started guides are licensed under the [MIT](LICENSE.txt) license.
 
 ## MARK'S CHANGE LOG !!
-### 2022 02 17 
+### 2022 02 17 MV
 - FORKED repo from azure-rtos/getting-started to markvogt/getting-started
 - CLONED repo to personal laptop
 - CONFIGURED CMakeLists.txt
@@ -54,3 +54,6 @@ The Azure RTOS Getting Started guides are licensed under the [MIT](LICENSE.txt) 
 - BUILT => SUCCESSFUL 
 - UPDATED readme.md
 - MODIFIED nx_client.c file to update the screen_print() function to change MXChip's startup displayed message...
+
+### 2022 02 18 MV
+- MODIFIED nx_client.c file to add several new test screen_print() lines to the OLED display...
