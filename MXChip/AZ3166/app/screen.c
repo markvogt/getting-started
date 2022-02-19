@@ -11,6 +11,10 @@ void screen_print(char* str, LINE_NUM line)
     ssd1306_SetCursor(2, line);
     ssd1306_WriteString(str, Font_11x18, White);
     ssd1306_UpdateScreen();
+    // ssd1306_DrawRectangle(uint8_t x1, uint8_t y1, uint8_t x2, uint8_t y2, SSD1306_COLOR color);
+    ssd1306_DrawRectangle(1,1,10,10,White);
+    ssd1306_UpdateScreen();
+
 }
 
 void screen_printn(const char* str, unsigned int str_length, LINE_NUM line)
