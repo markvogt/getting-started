@@ -331,7 +331,7 @@ static void properties_complete_cb(AZURE_IOT_NX_CONTEXT* nx_context)
 
     printf("\r\nStarting Main loop\r\n");
     screen_print("AVANADE IoT", L0);
-    screen_print("MX-MV-01", L1);
+    screen_print("MX-MV-02", L1);
     // screen_print("LINE 03", L2);
     // screen_print("LINE 04", L3);
     

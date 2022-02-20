@@ -57,3 +57,4 @@ The Azure RTOS Getting Started guides are licensed under the [MIT](LICENSE.txt) 
 
 ### 2022 02 18 MV
 - MODIFIED nx_client.c file to add several new test screen_print() lines to the OLED display...
+- EXPERIMENTED with utilizing a vsc REMOTE CONTAINER to execute all this code; it's BUILT INTO this project already !!
