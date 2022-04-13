@@ -32,7 +32,7 @@ typedef enum
 // ----------------------------------------------------------------------------
 // 2022 02 19 MEV: this DP ID Scope represents MEV's IOTC Application (no  IP or URL required)...
 #define IOT_DPS_ID_SCOPE        "0ne004C4ED6"
-#define IOT_DPS_REGISTRATION_ID "MXChip-MV-02"
+#define IOT_DPS_REGISTRATION_ID "MXChip-MV-03"
 
 // ----------------------------------------------------------------------------
 // Azure IoT Hub connection config
@@ -55,6 +55,8 @@ typedef enum
 // 2022 02 18 MEV: this is the SAS key for MXChip "MX-MV-01"...
 // #define IOT_DEVICE_SAS_KEY "FyKsTPpdUbJAerQhrueYLUf3xE+F+Yx9wEQChJhO0hw="
 // 2022 02 18 MEV: this is the SAS key for MXChip "MX-MV-02"...
-#define IOT_DEVICE_SAS_KEY "crmw6idF5G4i28nnffdkMpaOKgNfX1XuQfIDUHDtzZU="
+//#define IOT_DEVICE_SAS_KEY "crmw6idF5G4i28nnffdkMpaOKgNfX1XuQfIDUHDtzZU="
+// 2022 04 13 MEV: this is the SAS key for MXChip "MX-MV-03"...
+#define IOT_DEVICE_SAS_KEY "6utON+DgJiA3jEFZAS4nu6TVbO0Cx5wxzxV8JrFKg6U="
 
 #endif // _AZURE_CONFIG_H

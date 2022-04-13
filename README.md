@@ -45,6 +45,8 @@ If you believe you have found a security vulnerability in any Microsoft-owned re
 
 The Azure RTOS Getting Started guides are licensed under the [MIT](LICENSE.txt) license.
 
+============================================================================
+
 ## MARK'S CHANGE LOG !!
 ### 2022 02 17 MV
 - FORKED repo from azure-rtos/getting-started to markvogt/getting-started
@@ -58,3 +60,11 @@ The Azure RTOS Getting Started guides are licensed under the [MIT](LICENSE.txt) 
 ### 2022 02 18 MV
 - MODIFIED nx_client.c file to add several new test screen_print() lines to the OLED display...
 - EXPERIMENTED with utilizing a vsc REMOTE CONTAINER to execute all this code; it's BUILT INTO this project already !!
+
+### 2022 04 13 MV
+- RECEIVED a 3RD MXCHIP, so modified code to build & deploy a REVISED file for new MXChip...
+- UPDATED azure-config.h with MXChip-MV-03 data (including its SAS key from Mark's IoT Central Application)
+- UPDATED nx_client.c file with MXChip-MV-03 display data
+- BUILT => SUCCESSFUL
+- DEPLOYED to MXChip-MV-03 device => SUCCESSFUL
+- UPDATED readme.md
